@@ -1,1 +1,65 @@
-Generate runes, magic circles, and lost languages for your TTRPG campaign!
+# Magic Circle & Rune Generator
+
+Generate intricate magic circles, runes, and arcane symbols for your TTRPG campaigns and fantasy projects!
+
+## Features
+
+- **Complexity Control**: Scale from simple single-rune circles to sprawling, intricate geometric masterpieces
+- **Seeded Generation**: Same purpose + complexity = same design (reproducible results)
+- **Dynamic Designs**: Complexity levels 1-10 produce dramatically different outputs
+- **Export Functionality**: Save your designs as PNG images
+- **Random Inspiration**: Get random magical purposes to spark creativity
+
+## Complexity Levels
+
+### Simple (1-3)
+Basic circles with simple runes and minimal decorative elements. Perfect for quick spell markers or simple magical seals.
+
+### Moderate (4-6)
+Multiple concentric circles, geometric shapes (pentagons, hexagons, stars), runic inscriptions around the perimeter, and interconnecting radial lines. Ideal for ritual circles and spell diagrams.
+
+### Intricate (7-10)
+Highly complex designs featuring:
+- Multiple layered geometric patterns
+- Extensive networks of connecting lines
+- Dense runic inscriptions
+- Orbital elements and satellite symbols
+- Circular patterns and decorative elements
+- Complex central focal points
+- Beautiful, sprawling designs that look like arcane formulas rendered as art
+
+## Usage
+
+1. Open `index.html` in a web browser
+2. Enter a purpose/spell name (e.g., "Fireball", "Protection", "Summoning")
+3. Adjust the complexity slider (1-10)
+4. Click "Generate Circle" to create your design
+5. Use "Random Purpose" for inspiration
+6. Click "Export PNG" to save your creation
+
+## Technical Details
+
+- Pure JavaScript with HTML5 Canvas
+- Seeded random number generator for reproducible results
+- 9 different rune types inspired by various mystical alphabets
+- Dynamic geometric pattern generation
+- Responsive design
+
+## Perfect For
+
+- TTRPG spell effects and magical diagrams
+- Fantasy worldbuilding
+- Game design assets
+- Creative inspiration
+- Ritual magic visualization
+- Book illustrations
+- Character spell books
+
+## Examples
+
+Try these purposes with different complexity levels:
+- Protection (complexity 8)
+- Fireball (complexity 5)
+- Summoning (complexity 10)
+- Necromancy (complexity 9)
+- Time Stop (complexity 7)
