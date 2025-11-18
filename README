@@ -4,45 +4,71 @@ Generate intricate magic circles, runes, and arcane symbols for your TTRPG campa
 
 ## Features
 
-- **Complexity Control**: Scale from simple single-rune circles to sprawling, intricate geometric masterpieces
-- **Seeded Generation**: Same purpose + complexity = same design (reproducible results)
+- **Two Generation Modes**: Choose between circular designs or sprawling branching formulas
+- **Complexity Control**: Scale from simple structures to intricate geometric masterpieces
+- **Seeded Generation**: Same purpose + complexity + mode = same design (reproducible results)
 - **Dynamic Designs**: Complexity levels 1-10 produce dramatically different outputs
 - **Export Functionality**: Save your designs as PNG images
 - **Random Inspiration**: Get random magical purposes to spark creativity
 
+## Generation Modes
+
+### Magic Circle
+Traditional circular designs with radial symmetry, concentric patterns, and geometric shapes. Perfect for:
+- Spell casting circles
+- Protective wards
+- Summoning rituals
+- Traditional magic aesthetics
+
+### Runic Formula
+Sprawling, organic branching structures that look like complex magical equations rendered as beautiful art. Features:
+- Multi-level branching networks (up to 5 levels at high complexity)
+- Varying line widths and lengths for visual interest
+- Interconnected nodes with geometric shapes
+- Web of connections creating intricate patterns
+- Flowing curved connector lines
+- Perfect for arcane research notes, spell formulas, and ancient manuscripts
+
 ## Complexity Levels
 
 ### Simple (1-3)
-Basic circles with simple runes and minimal decorative elements. Perfect for quick spell markers or simple magical seals.
+**Magic Circle**: Basic concentric circles with simple runes and minimal decorative elements
+**Runic Formula**: 2-4 simple branches radiating from center with basic runes at endpoints
 
 ### Moderate (4-6)
-Multiple concentric circles, geometric shapes (pentagons, hexagons, stars), runic inscriptions around the perimeter, and interconnecting radial lines. Ideal for ritual circles and spell diagrams.
+**Magic Circle**: Multiple concentric circles, geometric shapes (pentagons, hexagons, stars), runic inscriptions around the perimeter, and radial connecting lines
+**Runic Formula**: 3-level branching structure with geometric connectors and interconnecting lines between nodes
 
 ### Intricate (7-10)
-Highly complex designs featuring:
-- Multiple layered geometric patterns
-- Extensive networks of connecting lines
-- Dense runic inscriptions
-- Orbital elements and satellite symbols
-- Circular patterns and decorative elements
-- Complex central focal points
-- Beautiful, sprawling designs that look like arcane formulas rendered as art
+**Magic Circle**: Highly complex circular designs with multiple layers, orbital elements, dense runic inscriptions, and intricate geometric patterns
+**Runic Formula**: Sprawling 5-level branching networks with:
+- Varying line widths and segmented paths
+- Dense web of connections between nodes
+- Geometric shapes (polygons, stars) at each node
+- Flowing curved connector lines
+- Scattered decorative symbols
+- Beautiful, organic designs resembling complex magical equations rendered as art
 
 ## Usage
 
 1. Open `index.html` in a web browser
 2. Enter a purpose/spell name (e.g., "Fireball", "Protection", "Summoning")
-3. Adjust the complexity slider (1-10)
-4. Click "Generate Circle" to create your design
-5. Use "Random Purpose" for inspiration
-6. Click "Export PNG" to save your creation
+3. Select your generation mode: **Magic Circle** or **Runic Formula**
+4. Adjust the complexity slider (1-10)
+5. Click "Generate" to create your design
+6. Use "Random Purpose" for inspiration
+7. Click "Export PNG" to save your creation
 
 ## Technical Details
 
 - Pure JavaScript with HTML5 Canvas
 - Seeded random number generator for reproducible results
 - 9 different rune types inspired by various mystical alphabets
+- Two distinct generation algorithms:
+  - Circular: Radial pattern generator with concentric layers
+  - Formula: Multi-level branching tree algorithm with dynamic node connections
 - Dynamic geometric pattern generation
+- Varying line widths and segmented path rendering
 - Responsive design
 
 ## Perfect For
@@ -57,9 +83,15 @@ Highly complex designs featuring:
 
 ## Examples
 
-Try these purposes with different complexity levels:
-- Protection (complexity 8)
-- Fireball (complexity 5)
-- Summoning (complexity 10)
-- Necromancy (complexity 9)
-- Time Stop (complexity 7)
+Try these combinations:
+
+**Magic Circle Mode:**
+- Protection (complexity 8) - Intricate defensive ward
+- Summoning (complexity 10) - Complex ritual circle
+- Fireball (complexity 5) - Moderate spell circle
+
+**Runic Formula Mode:**
+- Necromancy (complexity 10) - Sprawling dark magic formula
+- Time Stop (complexity 9) - Complex temporal equation
+- Lightning Strike (complexity 7) - Branching energy pattern
+- Transmutation (complexity 6) - Moderate alchemical formula
